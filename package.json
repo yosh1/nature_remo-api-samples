@@ -1,0 +1,12 @@
+{
+  "name": "natureremo-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yosh1/nature_remo-api-samples.git",
+  "author": "yosh1 <yoppy1125yoppy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}

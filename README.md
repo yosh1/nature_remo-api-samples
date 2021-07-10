@@ -2,5 +2,9 @@
 
 ---
 
-## official
+## official docs
 https://developer.nature.global/
+
+## settings
+
+add API and device key for `.env` .

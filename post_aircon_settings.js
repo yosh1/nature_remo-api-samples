@@ -7,7 +7,14 @@ const options = {
     'Authorization': `Bearer ${process.env.API_KEY}`,
     "Content-Type": "application/json; charset=utf-8"
   },
-  body: 'button=power-off'
+  body:
+  JSON.stringify({
+        temperature: '22',
+        operation_mode: 'cool',
+        air_volume: 'auto',
+        air_direction: '',
+        button: ''
+      })
 };
 
 (async () => {
